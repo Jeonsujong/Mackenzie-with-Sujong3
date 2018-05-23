@@ -4,8 +4,8 @@
 haml으로 작성하면서 되게 신기했다. 매우 친숙해진다면 간편하겠지만, 잘 모르는 상태에서 무턱대고 쓰다가는 엄청 꼬일 것 같다. 그럼에도 편리한 내용임에는 틀림없다.
 ### 오류 내용
 인덱스 파일을 index.html.erb로 만들어놓고 
-```@recipe.each do |recipe|
-  %h2= link_to recipe.title, recipe```
+```@recipe.each do |recipe|```
+```%h2= link_to recipe.title, recipe```
 
 왜 적용이 안 될까 한참 생각했다..
 
